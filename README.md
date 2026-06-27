@@ -2,7 +2,6 @@
 
 A powerful WordPress plugin that allows administrators to import images from direct URLs in bulk using either manual input or CSV/TXT files. The plugin automatically downloads media into the WordPress Media Library, tracks every successful import, generates thumbnails, and maintains a detailed import history with ratings.
 
----
 
 # Features
 
@@ -28,7 +27,6 @@ A powerful WordPress plugin that allows administrators to import images from dir
 * Invalid URL validation
 * Professional logging system
 
----
 
 # Requirements
 
@@ -36,7 +34,6 @@ A powerful WordPress plugin that allows administrators to import images from dir
 * PHP 7.4+
 * Administrator privileges
 
----
 
 # Installation
 
@@ -86,7 +83,6 @@ https://example.com/image3.webp
 
 **Start Import**
 
----
 
 ## Import from CSV/TXT
 
@@ -110,7 +106,6 @@ https://example.com/image3.jpg
 
 The plugin automatically reads the first column.
 
----
 
 # Import Process
 
@@ -126,7 +121,6 @@ The plugin performs the following steps:
 8. Saves metadata.
 9. Updates progress bar.
 
----
 
 # Import Log
 
@@ -140,7 +134,6 @@ Each successful import stores:
 * Import date
 * Star rating
 
----
 
 # Supported Formats
 
@@ -155,7 +148,6 @@ Images
 
 Depending on your WordPress configuration.
 
----
 
 # What is NOT Supported
 
@@ -174,13 +166,10 @@ Not Supported:
 ```
 https://google.com
 https://facebook.com
-https://chat.deepseek.com/...
-https://example.com/blog-post
 ```
 
 These are HTML pages rather than direct media files.
 
----
 
 # Error Handling
 
@@ -193,7 +182,6 @@ The plugin detects:
 * HTTP errors
 * Missing files
 
----
 
 # Admin Features
 
@@ -206,7 +194,6 @@ The plugin detects:
 * Delete logs
 * Responsive design
 
----
 
 # Plugin Structure
 
@@ -224,7 +211,6 @@ bulk-url-media-importer/
 │
 └── README.md
 
----
 
 # Changelog
 
@@ -240,13 +226,11 @@ bulk-url-media-importer/
 * Improved logging
 * Improved error handling
 
----
 
 # License
 
 GPL v2 or later
 
----
 
 # Contributing
 
@@ -254,12 +238,10 @@ Contributions, issues, and feature requests are welcome.
 
 Feel free to fork the repository and submit a Pull Request.
 
----
 
 # Author
 
 Muhammad Fawad Ali
 
----
 
 If you like this plugin, please consider giving it a ⭐ on GitHub.
